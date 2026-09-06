@@ -197,11 +197,9 @@ Based on the analysis, PureCo can:
 
 ## 👤 Author
 
-**[Your Name]**
+Rashmi Khairnar
 
-Add your name and LinkedIn profile here if you are using this project in your portfolio.
 
-"""
 out="/mnt/data/README.md"
 pypandoc.convert_text(readme, 'md', format='md', outputfile=out, extra_args=['--standalone'])
 print(out, os.path.getsize(out))
